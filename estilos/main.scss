@@ -1,0 +1,209 @@
+body {
+  .fondo {
+    background-image: url(../imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+  }
+
+  .titulo {
+    background-color: mistyrose;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: black;
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+.boots {
+  .carouselslide {
+    width: 500px;
+  }
+  .carousel-control-prev-icon {
+    background-color: black;
+  }
+  .carousel-control-next-icon {
+    background-color: black;
+  }
+}
+
+.inicio {
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name: miefecto;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
+
+  .spot {
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 200%;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    padding: 6rem;
+  }
+}
+
+section {
+  .padre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    box-shadow: 10px 5px 5px black;
+    height: 100%;
+    padding: 50px 25px;
+    align-content: center;
+  }
+
+  .borde {
+    background-color: mistyrose;
+    border: solid black 1px;
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+  }
+  .texto {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.informacion {
+  .piepag {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    border: 1px solid black;
+    background-image: url(../imagenes/fondo4.jpg);
+  }
+
+  .direccion {
+    text-align: center;
+  }
+  .telefonos {
+    text-align: center;
+  }
+}
+.productos {
+  .productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    height: 100%;
+    padding: 50px 25px;
+    align-content: center;
+  }
+
+  .hijo {
+    background-color: mistyrose;
+    margin: 30px 15px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between; /*explicar*/
+    text-align: center;
+  }
+  a:hover {
+    background-color: tomato;
+  }
+}
+
+.botones {
+  .btn1 {
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: white;
+    text-align: center;
+    width: 6rem;
+    height: 4rem;
+    padding: 10px 10px 10px 10px;
+    border: 7px orangered;
+    border-style: solid;
+    margin: 10px 50px 10px 9rem;
+  }
+  .btn2 {
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: white;
+    text-align: center;
+    width: 7rem;
+    height: 4rem;
+    padding: 10px 10px 10px 10px;
+    border: 7px orangered;
+    border-style: solid;
+    margin: 10px 140px 10px 140px;
+  }
+
+  .btn3 {
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: white;
+    text-align: center;
+    width: 6rem;
+    height: 4rem;
+    padding: 10px 10px 10px 10px;
+    border: solid 7px orangered;
+    border-style: solid;
+    margin: 10px 100px 10px 100px;
+  }
+
+  .btn4 {
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: white;
+    text-align: center;
+    width: 6rem;
+    height: 4rem;
+    padding: 10px 10px 10px 10px;
+    border: 7px orangered;
+    border-style: solid;
+    margin: 10px 115px 10px 115px;
+  }
+}
+
+.carousel {
+  .carouselslide {
+    width: 500px;
+  }
+  .carousel-control-prev-icon {
+    background-color: black;
+  }
+  .carousel-control-next-icon {
+    background-color: black;
+  }
+}
+.grid {
+  background-image: url(../imagenes/fondo4.jpg);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  border: 50px;
+}
+.info {
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+.ademas {
+  text-align: center;
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
